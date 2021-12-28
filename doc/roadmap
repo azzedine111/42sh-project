@@ -1,0 +1,13 @@
+- La construction de la command list se fait a partir de noeuds d'AST
+
+- On peut rassembler les noeuds de differents type grace aux unions
+
+- Les tokens sont des token words ou sinon "tout ce qu'on ne peut pas echo"
+
+- Le parseur s'occupe de differencier les token words
+
+- On free les ast seulement apres avoir evaluer toute la command list
+
+- On free un token avant de passer au suivant
+
+- On utilise strcpy pour eviter les problemes de free
